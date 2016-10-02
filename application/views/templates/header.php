@@ -13,7 +13,7 @@
     
     <body>
         <div class="container-fluid" style="background: url('source/header.jpg');color:#FFF;height:200px;">
-            <h1 class="header_text">EVFund</h1>
+            <h1 class="header_text">Event Fund</h1>
         </div>
 
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
