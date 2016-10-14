@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Sign up - Progressus Bootstrap template</title>
+	<title>Sign up - Evfund</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -138,10 +138,10 @@
 					<div class="col-md-3 widget">
 						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
-							<p>+234 23 9873237<br>
-								<a href="mailto:#">some.email@somewhere.com</a><br>
+							<p>(031) 5999944<br>
+								<a href="mailto:#">evfund@gmail.com</a><br>
 								<br>
-								234 Hidden Pond Road, Ashland City, TN 37015
+								Jalan ITS Raya, Keputih, Sukolilo, Surabaya, Jawa Timur 60111
 							</p>	
 						</div>
 					</div>
@@ -189,7 +189,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+								Copyright &copy; 2016, Evfund. Designed by <a href="http://evfund.com/" rel="designer"> KPPL D & E Berkolaborasi</a> 
 							</p>
 						</div>
 					</div>

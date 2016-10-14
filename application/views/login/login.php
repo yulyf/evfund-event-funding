@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Sign in - EV-FUND</title>
+	<title>Sign in - Evfund</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -41,8 +41,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
+							<li><a href="sidebar-left.html">Sponsor</a></li>
+							<li><a href="sidebar-right.html">Acara</a></li>
 						</ul>
 					</li>
 					<li><a href="contact.html">Contact</a></li>
@@ -123,7 +123,7 @@
 							<p>(031) 5999944<br>
 								<a href="mailto:#">evfund@gmail.com</a><br>
 								<br>
-								Jalan ITS Raya, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111
+								Jalan ITS Raya, Keputih, Sukolilo, Surabaya, Jawa Timur 60111
 							</p>	
 						</div>
 					</div>
@@ -132,10 +132,10 @@
 						<h3 class="widget-title">Follow me</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons clearfix">
-								<a href=""><i class="fa fa-twitter fa-2">https://twitter.com/evfund</i></a>
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
 								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
 								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i>https://www.facebook.com/evfund</a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
 							</p>	
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2016, Evfund. Designed by <a href="http://evfund.com/" rel="designer">KPPL D & E Berkolaborasi</a> 
+								Copyright &copy; 2016, Evfund. Designed by <a href="http://evfund.com/" rel="designer"> KPPL D & E Berkolaborasi</a> 
 							</p>
 						</div>
 					</div>
