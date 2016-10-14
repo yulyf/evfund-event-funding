@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Sign in - Progressus Bootstrap template</title>
+	<title>Sign in - EV-FUND</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -120,10 +120,10 @@
 					<div class="col-md-3 widget">
 						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
-							<p>+234 23 9873237<br>
-								<a href="mailto:#">some.email@somewhere.com</a><br>
+							<p>(031) 5999944<br>
+								<a href="mailto:#">evfund@gmail.com</a><br>
 								<br>
-								234 Hidden Pond Road, Ashland City, TN 37015
+								Jalan ITS Raya, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111
 							</p>	
 						</div>
 					</div>
@@ -132,10 +132,10 @@
 						<h3 class="widget-title">Follow me</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons clearfix">
-								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-twitter fa-2">https://twitter.com/raffieaja</i></a>
 								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
 								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i>https://www.facebook.com/kudo.shinichiii</a>
 							</p>	
 						</div>
 					</div>
