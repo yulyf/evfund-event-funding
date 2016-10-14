@@ -234,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+								Copyright &copy; 2014, EVFUND. Designed by <a href="http://efvund.com/" rel="designer">KPPL D&E Kolaborasi</a> 
 							</p>
 						</div>
 					</div>

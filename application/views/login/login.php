@@ -132,10 +132,10 @@
 						<h3 class="widget-title">Follow me</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons clearfix">
-								<a href=""><i class="fa fa-twitter fa-2">https://twitter.com/raffieaja</i></a>
+								<a href=""><i class="fa fa-twitter fa-2">https://twitter.com/evfund</i></a>
 								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
 								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i>https://www.facebook.com/kudo.shinichiii</a>
+								<a href=""><i class="fa fa-facebook fa-2"></i>https://www.facebook.com/evfund</a>
 							</p>	
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+								Copyright &copy; 2016, Evfund. Designed by <a href="http://evfund.com/" rel="designer">KPPL D & E Berkolaborasi</a> 
 							</p>
 						</div>
 					</div>
