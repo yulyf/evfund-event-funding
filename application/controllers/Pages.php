@@ -14,6 +14,11 @@ class Pages extends CI_Controller {
                 $this->load->view('templates/header', $data);
                 $this->load->view('pages/'.$page, $data);
                 $this->load->view('login/login');
+				$this->load->view('signup/signup');
+				$this->load->view('about/about');
+				$this->load->view('contact/contact');
+				$this->load->view('sponsor/sponsor');
+				$this->load->view('acara/acara');
                 $this->load->view('templates/footer', $data);
         }
 }
