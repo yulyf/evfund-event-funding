@@ -38,16 +38,16 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="welcome">Home</a></li>
+					<li><a href="about">About</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
+							<li><a href="sponosr">Sponsor</a></li>
+							<li class="active"><a href="acara">Acara</a></li>
 						</ul>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact">Contact</a></li>
 					<li><a class="btn" href="login">SIGN IN / SIGN UP</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
@@ -183,10 +183,10 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 					<div class="col-md-3 widget">
 						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
-							<p>+234 23 9873237<br>
-								<a href="mailto:#">some.email@somewhere.com</a><br>
+							<p>(031) 5999944<br>
+								<a href="mailto:#">evfund@gmail.com</a><br>
 								<br>
-								234 Hidden Pond Road, Ashland City, TN 37015
+								Jalan ITS Raya, Keputih, Sukolilo, Surabaya, Jawa Timur 60111
 							</p>	
 						</div>
 					</div>
@@ -234,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+								Copyright &copy; 2016, EVFUND. Designed by <a href="http://evfund.com/" rel="designer">KPPL D&E Kolaborasi</a> 
 							</p>
 						</div>
 					</div>

@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Sign in - Evfund</title>
+	<title>Sign up - Evfund</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -41,8 +41,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Sponsor</a></li>
-							<li><a href="sidebar-right.html">Acara</a></li>
+							<li><a href="sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="sidebar-right.html">Right Sidebar</a></li>
 						</ul>
 					</li>
 					<li><a href="contact.html">Contact</a></li>
@@ -60,7 +60,7 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">User access</li>
+			<li class="active">Registration</li>
 		</ol>
 
 		<div class="row">
@@ -68,34 +68,52 @@
 			<!-- Article main content -->
 			<article class="col-xs-12 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Sign in</h1>
+					<h1 class="page-title">Registration</h1>
 				</header>
 				
 				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<h3 class="thin text-center">Sign in to your account</h3>
-							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signup.html">Register</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
+							<h3 class="thin text-center">Register a new account</h3>
+							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signin.html">Login</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
 							<hr>
-							
-							<form action ="<?php echo base_url('index.php/login/user') ?>" method="POST">
-								<div class="form-group">
-									<label for="cari">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="username" name="username">
+
+							<form>
+								<div class="top-margin">
+									<label>First Name</label>
+									<input type="text" class="form-control">
 								</div>
-								<div class="form-group">
-									<label for="cari">Password <span class="text-danger">*</span></label>
-									<input type="password" class="form-control" id="password" name="password">
+								<div class="top-margin">
+									<label>Last Name</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Email Address <span class="text-danger">*</span></label>
+									<input type="text" class="form-control">
+								</div>
+
+								<div class="row top-margin">
+									<div class="col-sm-6">
+										<label>Password <span class="text-danger">*</span></label>
+										<input type="text" class="form-control">
+									</div>
+									<div class="col-sm-6">
+										<label>Confirm Password <span class="text-danger">*</span></label>
+										<input type="text" class="form-control">
+									</div>
 								</div>
 
 								<hr>
 
 								<div class="row">
 									<div class="col-lg-8">
-										<b><a href="">Forgot password?</a></b>
+										<label class="checkbox">
+											<input type="checkbox"> 
+											I've read the <a href="page_terms.html">Terms and Conditions</a>
+										</label>                        
 									</div>
 									<div class="col-lg-4 text-right">
-										<button class="btn btn-action" type="submit">Sign in</button>
+										<button class="btn btn-action" type="submit">Register</button>
 									</div>
 								</div>
 							</form>
@@ -193,5 +211,3 @@
 	<script src="assets/js/template.js"></script>
 </body>
 </html>
-
-
