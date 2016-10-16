@@ -43,12 +43,12 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sponosr">Sponsor</a></li>
+							<li><a href="upload">Upload</a></li>
 							<li class="active"><a href="acara">Acara</a></li>
 						</ul>
 					</li>
 					<li><a href="contact">Contact</a></li>
-					<li><a class="btn" href="login">SIGN IN / SIGN UP</a></li>
+					<li><a class="btn" href="login">Log Out</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

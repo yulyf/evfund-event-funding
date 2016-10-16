@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost:8080/KPPL/evfund-event-funding-kppl-d-e/
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

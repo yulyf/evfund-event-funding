@@ -12,12 +12,14 @@
 			{
 			?>
 				<p>Anda Login sebagai <?php echo $login->username;?></p>
+				<?php redirect('index.php'); ?>
 				
 			<?php
 			}
 			else
 			{
 				echo '<p>username/password yang anda masukkan salah.</p>';
+				redirect('login');
 			}
 			?>
 

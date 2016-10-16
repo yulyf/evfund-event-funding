@@ -13,7 +13,7 @@ class Login_model extends CI_Model
 	public function login()
 	{
 		$username = $this->input->POST('username',TRUE);
-		$password = md5($this->input->POST('password',TRUE));
+		$password = $this->input->POST('password',TRUE);
 		$data = $this->db->query("SELECT*from users where username='$username' and password='$password'LIMIT 1");
 		return $data->row();
 		
