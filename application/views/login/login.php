@@ -27,7 +27,7 @@
 
 <body>
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+	<div class="navbar navbar-inverse navbar-static-top headroom" >
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
@@ -37,13 +37,13 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a class="btn" href="login">SIGN IN / SIGN UP</a></li>
-				</ul>s
+				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</div> 
 	<!-- /.navbar -->
 
-	<header id="head" class="secondary"></header>
+	
 
 	<!-- container -->
 	<div class="container">
@@ -60,7 +60,7 @@
 					<div class="panel panel-default">
 						<div class="panel-body">
 							<h3 class="thin text-center">Sign in to your account</h3>
-							<p class="text-center text-muted">Jika Belum Punya Akun, <a href="signup.html">Register</a>  </p>
+							<p class="text-center text-muted">Jika Belum Punya Akun, <a href="daftar">Register</a>  </p>
 							<hr>
 							
 							<form action ="<?php echo base_url('index.php/login/user') ?>" method="POST">

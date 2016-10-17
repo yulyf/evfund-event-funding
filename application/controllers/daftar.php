@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -25,9 +25,9 @@
 	<![endif]-->
 </head>
 
-<body>
+<body style="margin: 0px">
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+	<div class="navbar navbar-inverse navbar-static-top headroom" >
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
@@ -37,11 +37,11 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a class="btn" href="login">SIGN IN / SIGN UP</a></li>
-				</ul>s
+				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</div> 
-<header id="head" class="secondary"></header>
+	<!-- /.navbar -->
 
 	<!-- container -->
 	<div class="container">
@@ -81,7 +81,7 @@
 								<div class="top-margin">
 									
 										<label for="password">Password <span class="text-danger">*</span></label>
-										<input type="text" id="password" name="password" class="form-control">
+										<input type="password" id="password" name="password" class="form-control">
 									
 								</div>
 
