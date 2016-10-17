@@ -34,21 +34,14 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+				<a class="navbar-brand" href="welcome"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a href="welcome">Home</a></li>
-					<li><a href="about">About</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="upload">Upload</a></li>
-							<li class="active"><a href="acara">Acara</a></li>
-						</ul>
-					</li>
-					<li><a href="contact">Contact</a></li>
-					<li><a class="btn" href="login">Log Out</a></li>
+					<li><a href="Lihat">Lihat</a></li>
+					<li><a href="upload">Upload Proposal</a></li>
+					<li><a class="btn" href="logout">Log Out</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -59,9 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 	<header id="head">
 		<div class="container">
 			<div class="row">
-				<h1 class="lead">AWESOME, CUSTOMIZABLE, FREE</h1>
+				<h1 class="lead"></h1>
 				<p class="tagline">PROGRESSUS: free business bootstrap template by <a href="http://www.gettemplate.com/?utm_source=progressus&amp;utm_medium=template&amp;utm_campaign=progressus">GetTemplate</a></p>
-				<p><a class="btn btn-default btn-lg" role="button">MORE INFO</a> <a class="btn btn-action btn-lg" role="button">DOWNLOAD NOW</a></p>
+				
 			</div>
 		</div>
 	</header>
@@ -223,9 +216,6 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 						<div class="widget-body">
 							<p class="simplenav">
 								<a href="#">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="sidebar-right.html">Sidebar</a> |
-								<a href="contact.html">Contact</a> |
 								<b><a href="signup.html">Sign up</a></b>
 							</p>
 						</div>

@@ -80,39 +80,39 @@
 
 							<form>
 								<div class="top-margin">
-									<label>First Name</label>
-									<input type="text" class="form-control">
+									<label for="nama">Name</label>
+									<input type="text" id="nama" name="nama" class="form-control">
 								</div>
+								
 								<div class="top-margin">
-									<label>Last Name</label>
-									<input type="text" class="form-control">
-								</div>
-								<div class="top-margin">
-									<label>Email Address <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
+									<label for="email">Email Address <span class="text-danger">*</span></label>
+									<input type="email" id="email" name="email" class="form-control">
 								</div>
 
-								<div class="row top-margin">
+								<div class=" top-margin">
 									<div class="col-sm-6">
-										<label>Password <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
+										<label for="password">Password <span class="text-danger">*</span></label>
+										<input type="text" id="password" name="password" class="form-control">
 									</div>
+								</div>
+
+								<div class=" top-margin">
 									<div class="col-sm-6">
-										<label>Confirm Password <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
+										<label for="nomor_hp">Nomor Telepon <span class="text-danger">*</span></label>
+										<input type="text" id="no_hp" name="no_hp" class="form-control">
+									</div>
+								</div>
+
+								<div class=" top-margin">
+									<div class="col-sm-6">
+										<label for="alamat">Alamat <span class="text-danger">*</span></label>
+										<input type="text" id="alamat" name="alamat" class="form-control">
 									</div>
 								</div>
 
 								<hr>
 
-								<div class="row">
-									<div class="col-lg-8">
-										<label class="checkbox">
-											<input type="checkbox"> 
-											I've read the <a href="page_terms.html">Terms and Conditions</a>
-										</label>                        
-									</div>
-									<div class="col-lg-4 text-right">
+										<div class="col-lg-4 text-right">
 										<button class="btn btn-action" type="submit">Register</button>
 									</div>
 								</div>
