@@ -9,17 +9,24 @@ class Login extends CI_Controller{
 	}
 
 	public function index(){
-		$this->load->view("login/login");
-	
+		$login = $this->session->userdata('username');
+		if($login ==null){
+			$this->load->view("login/login");
+		}else{
+			//sudah login
+		}
 	}
+
 	public function user(){
+		$username = $_POST['username'];
 		$data['login'] = $this->login_model->login();
-		$this->load->view('login/user',$data);
+		if($data['login'] ==null){
+			echo "login salah";
+		}else{
+			$this->session->set_userdata('username', $username);
+			$this->load->view('login/user',$data);
+		}
+	}
 	
-	}
-	function logout(){
-		$this->session->sess_destroy();
-		redirect(base_url('login'));
-	}
 
 }

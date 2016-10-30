@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	include('koneksi.php');
 	
 	//jika tombol tambah benar di klik maka lanjut prosesnya
-	$nama		= $_POST['usernama'];	//membuat variabel $nis dan datanya dari inputan NIS
+	$nama		= $_POST['username'];	//membuat variabel $nis dan datanya dari inputan NIS
 	$email		= $_POST['email'];	//membuat variabel $nama dan datanya dari inputan Nama Lengkap
 	$password	= $_POST['password'];	//membuat variabel $kelas dan datanya dari inputan dropdown Kelas
 	$no_hp	= $_POST['no_hp'];	//membuat variabel $jurusan dan datanya dari inputan dropdown Jurusan
