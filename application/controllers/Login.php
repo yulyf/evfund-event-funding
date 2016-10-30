@@ -24,7 +24,20 @@ class Login extends CI_Controller{
 			echo "login salah";
 		}else{
 			$this->session->set_userdata('username', $username);
-			$this->load->view('login/user',$data);
+			$this->session->set_userdata('groups', $groups);
+			if ($this->session->userdata('groups')=='admin') {
+				redirect('admin/c_admin');
+			}
+			elseif ($this->session->userdata('groups')=='sponsorship') {
+				redirect('sponsorship/c_sponsorship');
+			}		
+			elseif ($this->session->userdata('groups')=='event organizer') {
+				redirect('eo/c_eo');
+			}		
+
+		
+
+		$this->load->view('login/user',$data);
 		}
 	}
 	
