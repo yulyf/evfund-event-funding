@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a href="welcome">Home</a></li>
-					<li><a href="Lihat">Lihat</a></li>
+					<li><a href="lihat">Lihat</a></li>
 					<li><a href="upload">Upload Proposal</a></li>
 					<li><a class="btn" href="logout">Log Out</a></li>
 				</ul>
