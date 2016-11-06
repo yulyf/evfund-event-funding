@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2016 at 07:51 AM
+-- Generation Time: Nov 06, 2016 at 08:20 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -58,7 +58,8 @@ CREATE TABLE `tbl_files` (
 --
 
 INSERT INTO `tbl_files` (`id`, `filename`, `created`) VALUES
-(19, 'EvFund_RP_PSDP_Ganjil1617.pdf', '2016-11-06 13:49:37');
+(21, 'EvFund_Contoh_Proposal_U-NITECH.pdf', '2016-11-06 14:19:29'),
+(22, 'EvFund_Contoh_Proposal_Kegiatan.docx', '2016-11-06 14:19:33');
 
 -- --------------------------------------------------------
 
@@ -116,7 +117,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `tbl_files`
 --
 ALTER TABLE `tbl_files`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 --
 -- AUTO_INCREMENT for table `users`
 --
