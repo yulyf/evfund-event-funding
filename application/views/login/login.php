@@ -77,17 +77,26 @@ $a = 1;
 									<input type="password" class="form-control" id="password" name="password">
 								</div>
 
-							  <div class="form-group">
+							  	<div class="form-group">
 								<label for="cari">Groups <span class="text-danger">*</span></label>
-                                <select class='form-control' id='groups'>
-<option value='0'>--select groups--</option>
-<?php 
-foreach ($groups as $groups) {
-echo "<option value='$groups[id]'>$groups[name]</option>";
-}
-?>
-</select>
+								
+                                <select class='form-control' name='id' id='groups' required>
+
+									
+										<option value=''disabled selected>--select groups--</option>";
+										<?php 
+										foreach ($groups as $rowgroups) {
+										?>
+										<option value=" <?=$rowgroups ->id?>"><?=$rowgroups->preferences?></option>
+										<?php
+										}
+										?>
+										</select>
+										
 								</div>
+
+
+
 								<hr>
 
 								<div class="row">

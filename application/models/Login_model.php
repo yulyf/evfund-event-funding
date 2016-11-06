@@ -18,4 +18,9 @@ class Login_model extends CI_Model
 		return $data->row();
 		
 	}
+
+	public function getGroups(){
+		$data = $this->db->get("groups");
+		return $data->result();
+	}
 }

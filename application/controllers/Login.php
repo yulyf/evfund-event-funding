@@ -10,8 +10,9 @@ class Login extends CI_Controller{
 
 	public function index(){
 		$login = $this->session->userdata('username');
+		$data = $this->login_model->getGroups();
 		if($login ==null){
-			$this->load->view("login/login");
+			$this->load->view("login/login",array('groups' =>$data));
 		}else{
 			//sudah login
 		}
