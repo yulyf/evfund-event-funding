@@ -27,9 +27,9 @@
                     // Show Email Field in View Page
                     echo form_label('Tanggal Pelaksanaan:', 'u_email');
                     $data= array(
-                        'type' => 'email',
-                        'name' => 'u_email',
-                        'placeholder' => 'Please Enter Email Address',
+                        'type' => 'date',
+                        'name' => 'tanggal',
+                        'placeholder' => 'Masukkan Tanggal',
                         'class' => 'input_box'
                     );
                     echo form_input($data);
