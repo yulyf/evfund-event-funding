@@ -22,5 +22,6 @@ class Pages extends CI_Controller {
                 $this->load->view('templates/footer', $data);
 				$this->load->view('upload/v_upload');
 				$this->load->view('lihat/v_lihat');
+                $this->load->view('tambahevent/tambah_event');
         }
 }
