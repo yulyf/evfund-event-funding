@@ -80,14 +80,14 @@ $a = 1;
 							  	<div class="form-group">
 								<label for="cari">Groups <span class="text-danger">*</span></label>
 								
-                                <select class='form-control' name='id' id='groups' required>
+                                <select class='form-control' name='groups' id='groups' required>
 
 									
 										<option value=''disabled selected>--select groups--</option>";
 										<?php 
 										foreach ($groups as $rowgroups) {
 										?>
-										<option value=" <?=$rowgroups ->id?>"><?=$rowgroups->preferences?></option>
+										<option value="<?=$rowgroups ->id?>" id="groups"><?=$rowgroups->preferences?></option>
 										<?php
 										}
 										?>
