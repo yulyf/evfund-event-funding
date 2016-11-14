@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Mupload</OriginalElement>
+  <nodes>
+    <node x="180.0" y="136.5">\Login_model</node>
+    <node x="0.0" y="125.0">\Mupload</node>
+    <node x="94.5" y="0.0">\CI_Model</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Mupload" target="\CI_Model">
+      <point x="0.0" y="-60.0" />
+      <point x="80.0" y="100.0" />
+      <point x="135.0" y="100.0" />
+      <point x="-40.5" y="37.5" />
+    </edge>
+    <edge source="\Login_model" target="\CI_Model">
+      <point x="0.0" y="-48.5" />
+      <point x="271.0" y="100.0" />
+      <point x="216.0" y="100.0" />
+      <point x="40.5" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="181.0" y="122.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
