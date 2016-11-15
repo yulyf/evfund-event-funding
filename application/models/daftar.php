@@ -8,15 +8,15 @@ if(isset($_POST['submit'])){
 	include('koneksi.php');
 	
 	//jika tombol tambah benar di klik maka lanjut prosesnya
-	$nama		= $_POST['username'];	//membuat variabel $nis dan datanya dari inputan NIS
-	$email		= $_POST['email'];	//membuat variabel $nama dan datanya dari inputan Nama Lengkap
-	$password	= $_POST['password'];	//membuat variabel $kelas dan datanya dari inputan dropdown Kelas
-	$no_hp	= $_POST['no_hp'];	//membuat variabel $jurusan dan datanya dari inputan dropdown Jurusan
+	$nama		= $_POST['username'];
+	$email		= $_POST['email'];	
+	$password	= $_POST['password'];	
+	$no_hp	= $_POST['no_hp'];	
 	$alamat	= $_POST['alamat'];
 	
 	//melakukan query dengan perintah INSERT INTO untuk memasukkan data ke database
 	$enkrippass = md5($password);
-	$input = query("INSERT INTO users (id_user, username, password, email, groups, alamat, no_hp) VALUES(NULL, '$nama', '$enkrippass', '$email', '1', '$alamat', '$no_hp')") or die(mysql_error());
+	$input = mysql_query("INSERT INTO users (id_user, username, password, email, groups, alamat, no_hp) VALUES(NULL, '$nama', '$enkrippass', '$email', '1', '$alamat', '$no_hp')") or die(mysql_error());
 	
 	//jika query input sukses
 	if($input){
