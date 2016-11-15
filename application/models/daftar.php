@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 	
 	//melakukan query dengan perintah INSERT INTO untuk memasukkan data ke database
 	$enkrippass = md5($password);
-	$input = mysql_query("INSERT INTO user VALUES(NULL, '$nama', '$email', '$enkrippass', '$no_hp', '$alamat')") or die(mysql_error());
+	$input = query("INSERT INTO users (id_user, username, password, email, groups, alamat, no_hp) VALUES(NULL, '$nama', '$enkrippass', '$email', '1', '$alamat', '$no_hp')") or die(mysql_error());
 	
 	//jika query input sukses
 	if($input){
@@ -34,6 +34,7 @@ if(isset($_POST['submit'])){
 }else{	//jika tidak terdeteksi tombol tambah di klik
 
 	//redirect atau dikembalikan ke halaman tambah
+	echo '<"daftar gagal">';
 	echo '<script>window.history.back()</script>';
 
 }
