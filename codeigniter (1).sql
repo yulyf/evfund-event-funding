@@ -23,6 +23,26 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_files`
+--
+
+CREATE TABLE `tbl_files` (
+  `id` int(9) NOT NULL,
+  `filename` varchar(255) NOT NULL,
+  `created` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_files`
+--
+
+INSERT INTO `tbl_files` (`id`, `filename`, `created`) VALUES
+(21, 'EvFund_Contoh_Proposal_U-NITECH.pdf', '2016-11-06 14:19:29'),
+(22, 'EvFund_Contoh_Proposal_Kegiatan.docx', '2016-11-06 14:19:33');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `evfund_sessions`
 --
 
@@ -109,6 +129,12 @@ ALTER TABLE `evfund_sessions`
   ADD KEY `ci_sessions_timestamp` (`timestamp`);
 
 --
+-- Indexes for table `tbl_files`
+--
+ALTER TABLE `tbl_files`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `groups`
 --
 ALTER TABLE `groups`
@@ -130,7 +156,9 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
+--
+-- AUTO_INCREMENT for table `tbl_files`
+--
 --
 -- AUTO_INCREMENT for table `groups`
 --
