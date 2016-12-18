@@ -1,0 +1,89 @@
+.banner {
+    background: transparent url('../img/bg.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
+
+    height: 400px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 2px 2px black;
+}
+
+.padding-box {
+    padding: 20px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-login {
+    float: right;
+    font-size: 0.8em;
+    padding-right: 20px;
+}
+
+.welcome {
+    color: #bfbfbf;
+}
+
+.top-login fieldset{
+    padding: 0.2em 0 0 0;
+}
+
+.top-login label{
+    padding: 0 0.5em 0 0.5em;
+}
+
+.navgation {
+    width: 40%
+}
+
+.footer {
+    margin: 40px 0 40px 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+}
+
+.button-unfollow {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.avatar-padding {
+    padding: 20px 30px 0 0;
+}
+
+.avatar-padding-small {
+    padding: 0px 10px 0 0;
+}
+
+p.no-top-margin-half-bottom {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.tweet-avatar {
+    height: 75px;
+}
+
+.follow-box{
+    margin-bottom: 20px;
+}
